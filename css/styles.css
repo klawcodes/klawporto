@@ -143,8 +143,16 @@ body {
 }
 
 .about .about-container {
-  width: 70%;
+  width: 90%;
   float: right;
+  display: flex;
+}
+
+.about .about-container .symbol {
+  position: relative;
+  right: 50px;
+  bottom: 50px;
+  font-size: 250px;
 }
 
 .about .about-container p {
