@@ -336,6 +336,145 @@ body {
   color: #fff;
 }
 
+.link-ig {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+  mix-blend-mode: difference;
+}
+.link-em {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+  mix-blend-mode: difference;
+}
+.link-gi {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+  mix-blend-mode: difference;
+}
+.link-tw {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: #fff;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+  mix-blend-mode: difference;
+}
+.link-ig a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fa4;
+}
+
+.link-ig::before {
+  all: initial;
+  counter-increment: menu;
+  position: absolute;
+  bottom: 60%;
+  left: 0;
+  pointer-events: none;
+}
+
+.logo-ig {
+  pointer-events: none;
+  position: absolute;
+  height: 15vh;
+  max-height: 400px;
+  opacity: 0;
+  left: 18%;
+  top: 95.4%;
+  z-index: -1;
+  -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
+  transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
+}
+
+.logo-em {
+  pointer-events: none;
+  position: absolute;
+  height: 15vh;
+  max-height: 400px;
+  opacity: 0;
+  left: 43.5%;
+  top: 95.4%;
+  z-index: -1;
+  -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
+  transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
+}
+
+.logo-gi {
+  pointer-events: none;
+  position: absolute;
+  height: 15vh;
+  max-height: 400px;
+  opacity: 0;
+  left: 71%;
+  top: 95.4%;
+  z-index: -1;
+  -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
+  transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
+}
+
+.logo-tw {
+  pointer-events: none;
+  position: absolute;
+  height: 15vh;
+  max-height: 400px;
+  opacity: 0;
+  left: 101%;
+  top: 95.4%;
+  z-index: -1;
+  -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
+  transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
+}
+
+.link-ig:hover + .logo-ig {
+  opacity: 1;
+  -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) rotate3d(0, 0, 1, 0deg);
+  transform: translate3d(calc(-100% - 6vw), -30%, 0) rotate3d(0, 0, 1, 0deg);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.link-em:hover + .logo-em {
+  opacity: 1;
+  -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) rotate3d(0, 0, 1, 0deg);
+  transform: translate3d(calc(-100% - 6vw), -30%, 0) rotate3d(0, 0, 1, 0deg);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.link-gi:hover + .logo-gi {
+  opacity: 1;
+  -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) rotate3d(0, 0, 1, 0deg);
+  transform: translate3d(calc(-100% - 6vw), -30%, 0) rotate3d(0, 0, 1, 0deg);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.link-tw:hover + .logo-tw {
+  opacity: 1;
+  -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) rotate3d(0, 0, 1, 0deg);
+  transform: translate3d(calc(-100% - 6vw), -30%, 0) rotate3d(0, 0, 1, 0deg);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
 @media (max-width: 900px) {
   .socials .socials-container a {
     font-size: 30px;
