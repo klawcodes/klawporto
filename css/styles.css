@@ -160,6 +160,59 @@ body {
   font-size: 36px;
 }
 
+.about .icando {
+  position: relative;
+  margin-top: 80vh;
+  margin-left: -120vh;
+  bottom: 2vmax;
+  right: 16vmax;
+  align-items: center;
+}
+
+.about .icando p {
+  font-size: 100px;
+  text-align: center;
+}
+
+.about .icando ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+.about .icando li {
+  float: left;
+}
+
+.about .icando li a {
+  display: block;
+  padding: 50px;
+  text-decoration: none;
+  font-size: 55px;
+}
+
+.about .icando li .html:hover {
+  color: #ee6328;
+}
+
+.about .icando li .css:hover {
+  color: #284de4;
+}
+
+.about .icando li .react:hover {
+  color: #05d4fa;
+}
+
+.about .icando li .vue:hover {
+  color: #3fb581;
+}
+
+.about .icando li .python:hover {
+  color: #fbd13f;
+}
+
 @media (max-width: 900px) {
   .about .about-container {
     width: 100%;
@@ -398,7 +451,7 @@ body {
   max-height: 400px;
   opacity: 0;
   left: 18%;
-  top: 95.4%;
+  top: 95.8%;
   z-index: -1;
   -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
   transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
@@ -411,7 +464,7 @@ body {
   max-height: 400px;
   opacity: 0;
   left: 43.5%;
-  top: 95.4%;
+  top: 95.8%;
   z-index: -1;
   -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
   transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
@@ -424,7 +477,7 @@ body {
   max-height: 400px;
   opacity: 0;
   left: 71%;
-  top: 95.4%;
+  top: 95.8%;
   z-index: -1;
   -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
   transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
@@ -437,7 +490,7 @@ body {
   max-height: 400px;
   opacity: 0;
   left: 101%;
-  top: 95.4%;
+  top: 95.8%;
   z-index: -1;
   -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
   transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
