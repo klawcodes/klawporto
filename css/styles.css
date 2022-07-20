@@ -12,7 +12,7 @@
 html,
 body {
   overflow-x: hidden;
-  background: #0a0a0a;
+  background: linear-gradient(#050a11, black);
 }
 
 .wrapper {
@@ -191,26 +191,32 @@ body {
   padding: 50px;
   text-decoration: none;
   font-size: 55px;
+  transition: all 0.2s ease-in-out;
 }
 
 .about .icando li .html:hover {
   color: #ee6328;
+  text-shadow: 0 0px 40px rgba(238, 99, 40, 0.6);
 }
 
 .about .icando li .css:hover {
   color: #284de4;
+  text-shadow: 0 0px 40px rgba(40, 77, 228, 0.6);
 }
 
 .about .icando li .react:hover {
   color: #05d4fa;
+  text-shadow: 0 0px 40px rgba(5, 212, 250, 0.6);
 }
 
 .about .icando li .vue:hover {
   color: #3fb581;
+  text-shadow: 0 0px 40px rgba(63, 181, 129, 0.6);
 }
 
 .about .icando li .python:hover {
   color: #fbd13f;
+  text-shadow: 0 0px 40px rgba(251, 209, 63, 0.6);
 }
 
 @media (max-width: 900px) {
