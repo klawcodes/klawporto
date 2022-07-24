@@ -12,7 +12,7 @@
 html,
 body {
   overflow-x: hidden;
-  min-height: 550vh;
+  min-height: 510vh;
   background: linear-gradient(#050a11, black);
 }
 
