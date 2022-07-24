@@ -12,6 +12,7 @@
 html,
 body {
   overflow-x: hidden;
+  min-height: 550vh;
   background: linear-gradient(#050a11, black);
 }
 
@@ -457,7 +458,7 @@ body {
   max-height: 400px;
   opacity: 0;
   left: 18%;
-  top: 95.8%;
+  top: 95.2%;
   z-index: -1;
   -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
   transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
@@ -470,7 +471,7 @@ body {
   max-height: 400px;
   opacity: 0;
   left: 43.5%;
-  top: 95.8%;
+  top: 95.2%;
   z-index: -1;
   -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
   transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
@@ -483,7 +484,7 @@ body {
   max-height: 400px;
   opacity: 0;
   left: 71%;
-  top: 95.8%;
+  top: 95.2%;
   z-index: -1;
   -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
   transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
@@ -496,7 +497,7 @@ body {
   max-height: 400px;
   opacity: 0;
   left: 101%;
-  top: 95.8%;
+  top: 95.2%;
   z-index: -1;
   -webkit-transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
   transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 20px, 0);
