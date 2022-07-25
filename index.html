@@ -55,108 +55,75 @@
     <meta name="copyright" content="Copyright © 2021 ZESKIL. All Rights Reserved." />
     <link rel="icon" href="icons/favicon-32.png" sizes="32x32" />
     <link rel="icon" href="icons/favicon-192.png" sizes="192x192" />
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="icon" href="global.png" />
 
     <!-- locomotive-scroll -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.2.5/dist/locomotive-scroll.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <!-- HEADER -->
-    <title>k_law</title>
+    <title>Klaw | Portfolio Website</title>
   </head>
   <body id="js-scroll">
-    <div class="wrapper">
-      <div class="container">
-        <!-- navbar -->
-        <div class="navbar">
-          <div class="navbar-container">
-            <div class="site-title">porto</div>
-            <div class="site-type">folio</div>
-            <div class="site-year">2022</div>
-          </div>
+    <section id="js-scroll">
+        <div class="first-page text-center " >
+            <h2 class="title" data-scroll data-scroll-speed="1">Muhammad Dimas presents</h2>
+            <h3 class="main" data-scroll data-scroll-speed="2">KLAW</h3>
+            <h1 class="sub" data-scroll data-scroll-speed="3">a Junior Programmer</h2>
         </div>
 
-        <!-- divider -->
-        <div class="divider"></div>
+    </section>
 
-        <!-- header -->
-        <div class="header" id="js-scroll">
-          <div class="header-container">
-            <p><em data-scroll data-scroll-speed="1">muhammad dim_as</em><br />pre_sents<br /><em>&nbsp;klaw</em>✲</p>
-          </div>
+    <section id="about js-scroll" class="px-20 pt-[190px] pb-32">
+        <div class="second-page text-left" data-scroll data-scroll-speed="1">
+            <p1 >Hello, my name is <p2>Muhammad Dimas</p2> fka KLAW. I am a <strong>Junior Programmer</strong>, passionate about technology and programming</p1>
+            <br>
+            <br>
+            <p1><p2>I'm interested</p2> in programming since 2020, the first time i started programming was to make a <strong>Portfolio Website</strong> for my self and now i'm learning something cool.</p1>
         </div>
-
-        <!-- hero-image -->
-        <div class="hero-image">
-          <div class="hero-image-container" data-scroll data-scroll-speed="2">
-            <img src="images/hero-image.png" alt="" />
-          </div>
-        </div>
-
-        <div class="whitespace"></div>
-
-        <!-- sections -->
-        <div class="section-header">
-          <div class="section-header-container">
-            <div class="section-title">ab_out</div>
-            <div class="section-order">⁙001</div>
-          </div>
-        </div>
-
-        <div class="divider"></div>
-
-        <!-- about -->
-        <section class="about">
-          <div class="about-container" data-scroll data-scroll-speed="1">
-            <div class="symbol">
-              <h1>✲</h1>
-            </div>
-            <div class="text">
-              <p>hello humans, i'm muhammad dimas fka klaw, i'm a 3d designer and a junior programmer based in indonesia.</p>
-              <p>i'm interested in programming since 2020, the first time i started programming was to make a portfolio website for myself and now i'm learning something cool.</p>
-              <p>you can see some of my projects below or on github</p>
-            </div>
-            <div class="icando">
-              <p>i can do</p>
-              <ul>
+        <div class="icando py-[100px] text-center " data-scroll data-scroll-speed="2" data-scroll-delay="0.6" data-scroll-repeat data-scroll-call="dynamicColor">
+            <h2>I CAN DO</h2>
+            <ul >
                 <li><a class="html" href="https://html.com/">.html</a></li>
                 <li><a class="css" href="https://www.w3schools.com/Css/">.css</a></li>
                 <li><a class="react" href="https://reactjs.org/">.jsx</a></li>
                 <li><a class="vue" href="https://vuejs.org/">.vue</a></li>
                 <li><a class="python" href="https://www.python.org/">.py</a></li>
               </ul>
-            </div>
-          </div>
-        </section>
-
-        <div class="whitespace"></div>
-
-        <!-- projects -->
-        <div class="section-header">
-          <div class="section-header-container">
-            <div class="section-title">pro_ject</div>
-            <div class="section-order">⁙002</div>
-          </div>
         </div>
+        <div class="circle1" id="js-scroll">
+            <img src="./images/circle.png" alt="circle" data-scroll data-scroll-speed="4">
+        </div>
+        <div class="circle2">
+            <img src="./images/circle.png" alt="circle" data-scroll data-scroll-speed="5">
+        </div>
+        <div class="circle3">
+            <img src="./images/circle.png" alt="circle" data-scroll data-scroll-speed="6">
+        </div>
+    </section>
+    <div class="section-header">
+        <div class="section-header-container">
+          <div class="section-title">Project</div>
+        </div>
+      </div>
 
-        <div class="divider"></div>
-
+      <div class="divider"></div>
         <section class="project">
           <div class="project-container" id="js-scroll">
             <div>
               <nav class="menu">
-                <div class="menu__item">
-                  <a class="menu__item-link" href="https://github.com/klawcodes/whiteboard" target="_blank">✶ whit_eboard</a>
+                <div class="menu__item" >
+                  <a class="menu__item-link" href="https://github.com/klawcodes/whiteboard" target="_blank">✶ whiteboard</a>
                   <img class="menu__item-img" src="images/wb.png" />
                   <div class="marquee">
                     <div class="marquee__inner">
-                      <span>whit_eboard</span>
-                      <span>whit_eboard</span>
-                      <span>whit_eboard</span>
-                      <span>whit_eboard</span>
+                      <span>whiteboard</span>
+                      <span>whiteboard</span>
+                      <span>whiteboard</span>
+                      <span>whiteboard</span>
                     </div>
                   </div>
                 </div>
@@ -164,14 +131,14 @@
                 <div class="divider"></div>
 
                 <div class="menu__item">
-                  <a class="menu__item-link" href="https://github.com/klawcodes/hand-sign-detector" target="_blank">✶ hand-sign-dete_ctor</a>
+                  <a class="menu__item-link" href="https://github.com/klawcodes/hand-sign-detector" target="_blank">✶ hand-sign-detector</a>
                   <img class="menu__item-img" src="images/hand-sign.gif" />
                   <div class="marquee">
                     <div class="marquee__inner">
-                      <span>hand-sign-dete_ctor</span>
-                      <span>hand-sign-dete_ctor</span>
-                      <span>hand-sign-dete_ctor</span>
-                      <span>hand-sign-dete_ctor</span>
+                      <span>hand-sign-detector</span>
+                      <span>hand-sign-detector</span>
+                      <span>hand-sign-detector</span>
+                      <span>hand-sign-detector</span>
                     </div>
                   </div>
                 </div>
@@ -179,14 +146,14 @@
                 <div class="divider"></div>
 
                 <div class="menu__item">
-                  <a class="menu__item-link" href="https://github.com/klawcodes/text-to-speech" target="_blank">✶ text-to-spee_ch</a>
+                  <a class="menu__item-link" href="https://github.com/klawcodes/text-to-speech" target="_blank">✶ text-to-speech</a>
                   <img class="menu__item-img" src="images/tts.png" />
                   <div class="marquee">
                     <div class="marquee__inner">
-                      <span>text-to-spee_ch</span>
-                      <span>text-to-spee_ch</span>
-                      <span>text-to-spee_ch</span>
-                      <span>text-to-spee_ch</span>
+                      <span>text-to-speech</span>
+                      <span>text-to-speech</span>
+                      <span>text-to-speech</span>
+                      <span>text-to-speech</span>
                     </div>
                   </div>
                 </div>
@@ -194,14 +161,14 @@
                 <div class="divider"></div>
 
                 <div class="menu__item">
-                  <a class="menu__item-link" href="https://github.com/secretego/platformer-game" target="_blank">✶ pla_tformer-game</a>
+                  <a class="menu__item-link" href="https://github.com/secretego/platformer-game" target="_blank">✶ platformer-game</a>
                   <img class="menu__item-img" src="images/platformer-game.gif" />
                   <div class="marquee">
                     <div class="marquee__inner">
-                      <span>pla_tformer-game</span>
-                      <span>pla_tformer-game</span>
-                      <span>pla_tformer-game</span>
-                      <span>pla_tformer-game</span>
+                      <span>platformer-game</span>
+                      <span>platformer-game</span>
+                      <span>platformer-game</span>
+                      <span>platformer-game</span>
                     </div>
                   </div>
                 </div>
@@ -209,14 +176,14 @@
                 <div class="divider"></div>
 
                 <div class="menu__item">
-                  <a class="menu__item-link" href="https://github.com/klawcodes/python-idle" target="_blank">✶ py_thon-idle</a>
+                  <a class="menu__item-link" href="https://github.com/klawcodes/python-idle" target="_blank">✶ python-idle</a>
                   <img class="menu__item-img" src="images/idle.png" />
                   <div class="marquee">
                     <div class="marquee__inner" aria-hidden="true">
-                      <span>notep_ad</span>
-                      <span>notep_ad</span>
-                      <span>notep_ad</span>
-                      <span>notep_ad</span>
+                      <span>python-idle</span>
+                      <span>python-idle</span>
+                      <span>python-idle</span>
+                      <span>python-idle</span>
                     </div>
                   </div>
                 </div>
@@ -225,87 +192,37 @@
           </div>
         </section>
 
-        <div class="whitespace"></div>
-
-        <!-- clients -->
-        <!--<div class="section-header">
-          <div class="section-header-container">
-            <div class="section-title">clients</div>
-            <div class="section-order">/003</div>
-          </div>
-        </div>
-
-        <div class="divider"></div>
-
-        <section class="clients">
-          <div class="clients-container">
-            <p>
-              <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;telia, vizrt, edlund, pensam, mp pension, charlie tango, molio, scout.org, pelican selfstorage, danske bank, groupcare, banedanmark, samvirke, dsb, kmd, udviklings og forenklings
-              <br />
-            </p>
-          </div>
-        </section>
-
-        <div class="whitespace"></div>-->
-
-        <!-- social  -->
-        <div class="section-header">
-          <div class="section-header-container">
-            <div class="section-title">soc_ials</div>
-            <div class="section-order">⁙003</div>
-          </div>
-        </div>
-
-        <div class="divider"></div>
-
         <section class="socials" id="js-scroll">
-          <div class="socials-container">
-            <div class="socials-id dr">
-              <a class="link-ig" href="https://github.com/klawcodes" target="_blank">gith_ub</a>
-              <img class="logo-ig" src="images/github.png" />
+            <div class="socials-title text-center">
+                <h2>↓ Get in touch ↓</h2>
             </div>
-            <div class="socials-id ln">
-              <a class="link-em" href="mailto:klawcodes@gmail.com">e_mail</a>
-              <img class="logo-em" src="images/email.png" />
-            </div>
-            <div class="socials-id ig">
-              <a class="link-gi" href="https://instagram.com/riotrevenger" target="_blank">insta_gram</a>
-              <img class="logo-gi" src="images/ig.png" />
-            </div>
-            <div class="socials-id tw">
-              <a class="link-tw" href="https://twitter.com/0xKlaw" target="_blank">twit_ter</a>
-              <img class="logo-tw" src="images/twitter.png" />
-            </div>
-          </div>
-        </section>
+            <div class="socials-container">
+              <div class="socials-id dr">
+                <a class="link-ig" href="https://github.com/klawcodes" target="_blank">github</a>
+              </div>
+              <div class="socials-id ln">
+                <a class="link-em" href="mailto:klawcodes@gmail.com">email</a>
 
-        <div class="divider"></div>
+              </div>
+              <div class="socials-id ig">
+                <a class="link-gi" href="https://instagram.com/riotrevenger" target="_blank">instagram</a>
 
-        <!-- footer -->
-        <div class="footer">
-          <div class="navbar">
-            <div class="navbar-container">
-              <div class="site-title">created by 0xKlaw</div>
-              <div class="site-year">0.7893° S, 113.9213° E</div>
+              </div>
+              <div class="socials-id tw">
+                <a class="link-tw" href="https://twitter.com/0xKlaw" target="_blank">twitter</a>
+              </div>
             </div>
-          </div>
-        </div>
-        <br />
-      </div>
-    </div>
-
-    <script>
-      const scroll = new LocomotiveScroll({
-        el: document.querySelector('#js-scroll'),
-        smooth: true,
-        smoothMobile: true,
-        inertia: 0.75,
-      });
-    </script>
-    <script>
-      AOS.init();
-    </script>
+            <div class="footer text-center">
+                <h2>Muhammad Dimas © 2022</h2>
+            </div>
+          </section>
+         <script>
+            const scroll = new LocomotiveScroll({
+              el: document.querySelector('#js-scroll'),
+              smooth: true,
+              smoothMobile: true,
+              inertia: 0.75,
+            });
+          </script>
   </body>
-  <!--sum1d-->
 </html>
